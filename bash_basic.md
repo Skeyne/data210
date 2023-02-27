@@ -15,6 +15,8 @@ within the current directory.
 
 **touch \<name>** - creates empty file in current directory
 
+**nano** - opens text editor
+
 ### Removing items
 **rm \<name>** - removes item, use -r(f) flag for removing directories and all their contents
 
