@@ -20,7 +20,6 @@
 
 **git pull** - update local repo to the newest version of the remote 
 
-
 **git status** - prints the current state of the repo, what changes are staged, if up to date with remote repo
 
 ### Working with branches
@@ -34,6 +33,9 @@
 
 **git branch -d \<name>** - deletes branch with name
 
+**git diff** - difference between working files and commits
+
+**git log** - log of everything that's happened
 ## Other version control options
 - Gitlab
 - Mercurial
