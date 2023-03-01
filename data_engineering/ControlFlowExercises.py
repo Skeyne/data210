@@ -33,10 +33,11 @@ print("\nQ2a\n")
 names = ["Alan Turing", "Leonardo Fibonacci", "Katherine Johnson", "Annie Easley", "Terence Tao"]
 
 # A2a:
-
+l = []
 for n in names:
-    print(n[0])
+   l.append(n[0])
 
+print(l)
 
 print("\nQ2b\n")
 # Q2b: from the list of names, create another list that consists of only the index of the space in the string
@@ -94,9 +95,10 @@ def is_prime(n):
   return True
 # A4b:
 ans = int(input())
+######
 while ans <= 100:
     ans = int(input())
-
+#########
 print(ans)
 if is_prime(ans):
     print("prime")
